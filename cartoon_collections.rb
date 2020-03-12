@@ -9,7 +9,8 @@ def summon_captain_planet(planeteers_calls)
   planeteers_calls.map { |call| call.apitalize + "!" }
 end
 
-def long_planeteer_calls
+def long_planeteer_calls(planeteers_calls)
+  planeteers_calls.any? { |call| call.length > 4
 end
 
 
